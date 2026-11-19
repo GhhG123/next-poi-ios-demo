@@ -4,6 +4,14 @@
 
 *An iOS and Flask portfolio demo for a bachelor's thesis on cross-city next point-of-interest recommendation.*
 
+## 原版 iOS 界面
+
+截图来自本科毕业论文，展示了原版 App 的地图首页和签到记录分组。
+
+| 地图首页 | 签到记录分组 |
+| :---: | :---: |
+| <img src="docs/figures/thesis-ios-map.png" alt="原版 iOS App 的地图首页和推荐 POI 按钮" width="240"> | <img src="docs/figures/thesis-ios-checkins.png" alt="原版 iOS App 的签到记录分组列表" width="240"> |
+
 ## 演示内容
 
 - 切换上海 → 杭州、上海 → 苏州两条合成行程。地图默认聚焦目的地，也可缩放查看全程。
@@ -53,5 +61,11 @@ flowchart TB
     Flask --> SQLite["SQLite 签到记录"]
     Flask --> Preset["预设推荐"]
 ```
+
+### 原毕设整体架构
+
+论文中的完整系统分为 iOS 客户端、Web API 服务和数据层。服务层负责用户认证、数据处理与模型推理。
+
+![论文原图：原毕设的表示层、Web API 服务层与数据层](docs/figures/thesis-system-architecture.png)
 
 原毕设的研究模型基于 PyTorch。CSLS 用双路 LSTM 编码地点和类别序列，引入地理距离、访问频率与类别时间注意力，并融合用户的长短期偏好。完整的模型流程和论文中的离线实验结果见 [研究设计](docs/research.md)。
