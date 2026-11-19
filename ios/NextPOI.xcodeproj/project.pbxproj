@@ -1,0 +1,152 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {};
+    objectVersion = 77;
+    objects = {
+        9431BDC42D2FA1D80076C2D2 /* Project object */ = {
+            isa = PBXProject;
+            attributes = {
+                LastSwiftUpdateCheck = 1620;
+                LastUpgradeCheck = 1620;
+            };
+            buildConfigurationList = 9431BDC72D2FA1D80076C2D2;
+            compatibilityVersion = "Xcode 16.0";
+            developmentRegion = "zh-Hans";
+            knownRegions = ("zh-Hans", en, Base);
+            mainGroup = 9431BDC32D2FA1D80076C2D2;
+            preferredProjectObjectVersion = 77;
+            productRefGroup = 9431BDCD2D2FA1D80076C2D2;
+            projectDirPath = "";
+            projectRoot = "";
+            targets = (9431BDCB2D2FA1D80076C2D2);
+        };
+        9431BDC32D2FA1D80076C2D2 = {
+            isa = PBXGroup;
+            children = (9431BDCE2D2FA1D80076C2D2, 9431BDCD2D2FA1D80076C2D2);
+            sourceTree = "<group>";
+        };
+        9431BDCE2D2FA1D80076C2D2 /* NextPOI */ = {
+            isa = PBXFileSystemSynchronizedRootGroup;
+            path = NextPOI;
+            sourceTree = "<group>";
+        };
+        9431BDCD2D2FA1D80076C2D2 /* Products */ = {
+            isa = PBXGroup;
+            children = (9431BDCC2D2FA1D80076C2D2);
+            name = Products;
+            sourceTree = "<group>";
+        };
+        9431BDCC2D2FA1D80076C2D2 /* NextPOI.app */ = {
+            isa = PBXFileReference;
+            explicitFileType = wrapper.application;
+            path = NextPOI.app;
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+        9431BDCB2D2FA1D80076C2D2 /* NextPOI */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = 9431BDF02D2FA1DB0076C2D2;
+            buildPhases = (
+                9431BDC82D2FA1D80076C2D2,
+                9431BDC92D2FA1D80076C2D2,
+                9431BDCA2D2FA1D80076C2D2,
+            );
+            buildRules = ();
+            dependencies = ();
+            fileSystemSynchronizedGroups = (9431BDCE2D2FA1D80076C2D2);
+            name = NextPOI;
+            productName = NextPOI;
+            productReference = 9431BDCC2D2FA1D80076C2D2;
+            productType = "com.apple.product-type.application";
+        };
+        9431BDC82D2FA1D80076C2D2 = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = ();
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        9431BDC92D2FA1D80076C2D2 = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = ();
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        9431BDCA2D2FA1D80076C2D2 = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = ();
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        9431BDC72D2FA1D80076C2D2 = {
+            isa = XCConfigurationList;
+            buildConfigurations = (9431BDEE2D2FA1DB0076C2D2, 9431BDEF2D2FA1DB0076C2D2);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        9431BDF02D2FA1DB0076C2D2 = {
+            isa = XCConfigurationList;
+            buildConfigurations = (9431BDF12D2FA1DB0076C2D2, 9431BDF22D2FA1DB0076C2D2);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        9431BDEE2D2FA1DB0076C2D2 = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                CLANG_ENABLE_MODULES = YES;
+                ENABLE_TESTABILITY = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+                SDKROOT = iphoneos;
+                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+            };
+            name = Debug;
+        };
+        9431BDEF2D2FA1DB0076C2D2 = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                CLANG_ENABLE_MODULES = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+                SDKROOT = iphoneos;
+                SWIFT_COMPILATION_MODE = wholemodule;
+                SWIFT_OPTIMIZATION_LEVEL = "-O";
+            };
+            name = Release;
+        };
+        9431BDF12D2FA1DB0076C2D2 = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                GENERATE_INFOPLIST_FILE = YES;
+                INFOPLIST_FILE = Info.plist;
+                INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+                INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+                MARKETING_VERSION = 1.0;
+                PRODUCT_BUNDLE_IDENTIFIER = app.portfolio.NextPOIDemo;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = "1,2";
+            };
+            name = Debug;
+        };
+        9431BDF22D2FA1DB0076C2D2 = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                GENERATE_INFOPLIST_FILE = YES;
+                INFOPLIST_FILE = Info.plist;
+                INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+                INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+                MARKETING_VERSION = 1.0;
+                PRODUCT_BUNDLE_IDENTIFIER = app.portfolio.NextPOIDemo;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = "1,2";
+            };
+            name = Release;
+        };
+    };
+    rootObject = 9431BDC42D2FA1D80076C2D2;
+}
