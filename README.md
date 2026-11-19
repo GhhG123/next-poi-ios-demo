@@ -6,11 +6,11 @@
 
 ## 原版 iOS 界面
 
-截图来自本科毕业论文，展示了原版 App 的地图首页和签到记录分组。
+截图来自本科毕业论文。图 7-5 的绿色图钉表示推荐的下一站，红色图钉表示历史签到点。
 
-| 地图首页 | 签到记录分组 |
-| :---: | :---: |
-| <img src="docs/figures/thesis-ios-map.png" alt="原版 iOS App 的地图首页和推荐 POI 按钮" width="240"> | <img src="docs/figures/thesis-ios-checkins.png" alt="原版 iOS App 的签到记录分组列表" width="240"> |
+| 地图首页 | 签到记录分组 | 下一站推荐 |
+| :---: | :---: | :---: |
+| <img src="docs/figures/thesis-ios-map.png" alt="原版 iOS App 的地图首页和推荐 POI 按钮" width="240"> | <img src="docs/figures/thesis-ios-checkins.png" alt="原版 iOS App 的签到记录分组列表" width="240"> | <img src="docs/figures/thesis-ios-next-poi.png" alt="原版 App 推荐结果，地图上的绿色图钉为推荐 POI" width="240"> |
 
 ## 演示内容
 
@@ -18,7 +18,7 @@
 - 查看按时间排列的签到记录，在地图上显示下一站推荐。
 - 从右上角切换到本地 Flask，查看请求如何经过 Swift 客户端、Flask API 和 SQLite。
 
-演示用的地点、时间和用户编号均为合成样例。两种模式都返回预设推荐。训练代码、模型权重、原始签到数据和账号数据库未随展示版分发。
+演示用的地点、时间和用户编号均为合成样例。两种模式都返回预设推荐。训练代码、模型权重、原始签到数据文件和账号数据库未随展示版分发。
 
 ## 运行
 
